@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "address": "123 Main St, Springfield, IL",
+    "username": "john_doe",
+    "password": "encryptedPassword1",
+    "role": "SELLER"
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "address": "456 Oak Ave, Springfield, IL",
+    "username": "jane_smith",
+    "password": "encryptedPassword2",
+    "role": "SELLER"
+  }
+]

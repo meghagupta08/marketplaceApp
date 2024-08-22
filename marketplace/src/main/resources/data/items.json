@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "itemName": "Vintage Camera",
+    "itemDescription": "A classic vintage camera in good condition.",
+    "buyNowPrice": 200.0,
+    "startingAuctionTime": "2024-08-20T10:00:00",
+    "endAuctionTime": "2024-09-01",
+    "startingBidPrice": 50.0,
+    "status": "ACTIVE",
+    "seller": 1
+  },
+  {
+    "id": 2,
+    "itemName": "Antique Vase",
+    "itemDescription": "An exquisite antique vase from the 18th century.",
+    "buyNowPrice": 1000.0,
+    "startingAuctionTime": "2024-08-21T10:00:00",
+    "endAuctionTime": "2024-09-10",
+    "startingBidPrice": 150.0,
+    "status": "ACTIVE",
+    "seller": 2
+  }
+]
