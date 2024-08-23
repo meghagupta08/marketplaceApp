@@ -1,5 +1,6 @@
 package com.example.marketplace.rest;
 
+import com.example.marketplace.exception.UserNotFoundException;
 import com.example.marketplace.model.User;
 import com.example.marketplace.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,8 +24,8 @@ public class UserController {
 
         if (user.isPresent()) {
             return new ResponseEntity<>(user.get(), HttpStatus.OK);
-        } else {
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        } else{
+            throw new UserNotFoundException("User not found");
         }
     }
 
