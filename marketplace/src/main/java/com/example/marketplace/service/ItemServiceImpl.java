@@ -1,6 +1,7 @@
 package com.example.marketplace.service;
 
 import com.example.marketplace.model.Item;
+import com.example.marketplace.model.User;
 import com.example.marketplace.repository.ItemRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -23,4 +24,6 @@ public class ItemServiceImpl implements ItemService{
     public List<Item> findAllListingsForUser(Long id) {
         return itemRepository.findAllListingsForUser(id);
     }
+
+
 }
